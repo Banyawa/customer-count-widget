@@ -1,1 +1,1 @@
-# customer-count-widget-toto
+# customer-count-widget
