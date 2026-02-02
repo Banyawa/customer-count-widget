@@ -15,8 +15,9 @@ describe('Customer Count Widget', () => {
     );
 
     // Create a JSDOM instance
+    // Using 'outside-only' for security - we're testing static HTML structure
     dom = new JSDOM(html, {
-      runScripts: 'dangerously',
+      runScripts: 'outside-only',
       resources: 'usable',
       url: 'http://localhost'
     });
