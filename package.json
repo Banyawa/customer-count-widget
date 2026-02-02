@@ -1,0 +1,20 @@
+{
+  "name": "customer-count-widget",
+  "version": "1.0.0",
+  "description": "A customer count widget that displays the total customer count from Google Sheets",
+  "main": "index.html",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": ["widget", "customer", "counter"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jsdom": "^23.0.0"
+  }
+}
